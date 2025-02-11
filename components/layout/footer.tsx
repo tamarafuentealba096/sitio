@@ -1,5 +1,4 @@
 import { Button, Textarea, Label } from "@/components/forms/shadcn";
-import { GoogleMapComponent } from "@/components/features";
 
 export function Footer() {
   return (
@@ -38,9 +37,6 @@ export function Footer() {
         <a href="#">Fundación de Intolerancia al Gluten (Convivir)</a>
         <p>Enfermedades Metabólicas</p>
         <a href="#">Grupo de Enfermedades Metabólicas</a>
-      </div>
-      <div className="flex justify-center items-center rounded-lg">
-        <GoogleMapComponent />
       </div>
     </footer>
   );
